@@ -37,7 +37,6 @@ public class Order {
     public float totalCost(){
         float cost = 0;
         for(int i = 0 ; i < this.qtyOrdered ; i++){
-            if (this.itemOrdered[i].getCost()!= 0.0)
                 cost += this.itemOrdered[i].getCost();
         }
         return cost;

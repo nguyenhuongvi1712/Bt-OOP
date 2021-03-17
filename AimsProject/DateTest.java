@@ -5,7 +5,7 @@ import junit.framework.TestCase;
 public class DateTest extends TestCase {
     public static void main(String []args){
         MyDate date1= new MyDate();
-        testGetDay(16,date1);
+        testGetDay(18,date1);
         testGetMonth(3,date1);
         testGetYear(2021,date1);
         testSetYear(-2001,date1,1);
