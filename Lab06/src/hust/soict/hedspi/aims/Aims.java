@@ -22,7 +22,7 @@ public class Aims {
                     break;
                 case "2":
                     if(case1 == 0) {
-    					System.err.println("Please create new order before add anything!");
+    					System.err.println("Please create new order before add anything! ");
     					break;
 				    }
                     showMenuMedia();
