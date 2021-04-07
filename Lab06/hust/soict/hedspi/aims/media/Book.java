@@ -33,14 +33,31 @@ public class Book extends Media{
     }
 
     public void addAuthor(String authorName){
-        if(!authors.contains(authorName)){
-            authors.add(authorName);
+        int flag = 0;
+        for (String o : authors) {
+            if(o.equals(authorName)){
+                flag = 1;
+                break;
+            }
         }
+        if(flag == 0)
+            authors.add(authorName);
+        else
+            System.out.println("Can not add the author's name because it existed !");
+
     }
     public void removeAuthor(String authorName){
-        if(authors.contains(authorName)){
-            authors.remove(authorName);
+        int flag = 0;
+        for (String o : authors) {
+            if(o.equals(authorName)){
+                flag = 1;
+                break;
+            }
         }
+        if(flag == 1)
+            authors.removeIf(o->o.equals(authorName));
+        else
+            System.out.println("The author's name not found !");
     }
     @Override
     public String toString(){

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 
 public class Order {
-//    public static final int MAX_NUMBERS_ORDERED = 10;
+    public static final int MAX_NUMBERS_ORDERED = 10;
     public static final int MAX_LIMITED_ORDERS = 5;
     private static int nbOrders = 0;
 
@@ -24,7 +24,10 @@ public class Order {
     }
 
     public void addMedia(Media media){
-        this.itemsOrdered.add(media);
+        if(itemsOrdered.size() < MAX_NUMBERS_ORDERED )
+            this.itemsOrdered.add(media);
+        else
+            System.out.println("The list media is full !");
     }
 
     public void removeMedia(int id){
@@ -47,11 +50,6 @@ public class Order {
     public void display(){
         this.itemsOrdered.forEach(o -> System.out.println(o.toString()));
     }
-
-
-
-
-
 }
 
 
