@@ -98,6 +98,7 @@ public class Book extends Media {
         processContent();
     }
     private void processContent() {
+        content = content.replace('.',' ');
         contentTokens.addAll(Arrays.asList(content.split("\\s+")));
         Collections.sort(contentTokens);
         Iterator<String> iterator = contentTokens.iterator();
