@@ -11,7 +11,7 @@ public class BookTest {
                 "\n" +
                 "Dưới bóng tối của rặng tre um-tùm, tiếng trâu thở hì-hò, tiếng bò đập đuôi đen- đét, sen với tiếng người khạc khúng-khắng.\n" +
                 "\n" +
-                "Cảnh-tượng điếm tuần thình-lình hiện ra trong ánh lửa lập-lòe của chiếc mồi rơm bị thổi. Cạnh giẫy sào, giáo ngả nghiêng dựng ở giáp tường, một lũ tuần-phu lố-nhố ngồi trên lớp chiếu quằn-quèo.Có người phì-phò thổi mồi. Có người ve-ve mồi thuốc và chìa tay chờ đón điếu đóm. Có người há miệng ngáp dài. Có người đang hai tay dụi mắt. Cũng có người gối đầu trên cái miệng hiệu sừng trâu, ngảnh mặt vào vách mà ngáy.\n" +
+                "Cảnh-tượng điếm tuần thình-lình hiện ra trong ánh lửa lập-lòe của chiếc mồi rơm bị thổi. Cạnh giẫy sào, giáo ngả nghiêng dựng ở giáp tường, một lũ tuần-phu lố-nhố ngồi trên lớp chiếu quằn-quèo. Có người phì-phò thổi mồi. Có người ve-ve mồi thuốc và chìa tay chờ đón điếu đóm. Có người há miệng ngáp dài. Có người đang hai tay dụi mắt. Cũng có người gối đầu trên cái miệng hiệu sừng trâu, ngảnh mặt vào vách mà ngáy.\n" +
                 "\n" +
                 "Cái điếu cày và cái đóm lửa bị năm, sáu người chuyền tay, chiếu đi, chiếu lại độ vài ba vòng, ánh lửa lại tắt, trong điếm chỉ còn tiếng nói chuyện rầm-rầm.\n" +
                 "\n" +
