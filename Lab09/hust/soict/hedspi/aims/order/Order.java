@@ -23,6 +23,10 @@ public class Order {
         }
     }
 
+    public ArrayList<Media> getItemsOrdered() {
+        return itemsOrdered;
+    }
+
     public void addMedia(Media media){
         if(itemsOrdered.size() < MAX_NUMBERS_ORDERED )
             this.itemsOrdered.add(media);
@@ -46,7 +50,9 @@ public class Order {
         }
         return cost;
     }
-
+    public int getNumItem(){
+        return itemsOrdered.size();
+    }
     public void display(){
         this.itemsOrdered.forEach(o -> System.out.println(o.toString()));
     }

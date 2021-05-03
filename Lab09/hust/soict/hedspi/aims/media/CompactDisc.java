@@ -69,7 +69,9 @@ public class CompactDisc extends Disc{
         else
             System.out.println("This track not found in the track list");
     }
-
+    public List<Track> getTracks(){
+        return tracks;
+    }
     public int getTracksLength(){
         int sumLength = 0 ;
         for(Track o : tracks){
